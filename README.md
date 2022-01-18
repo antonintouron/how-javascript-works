@@ -6,4 +6,4 @@
   * The `memory heap` (Allocate memory).
   * The `call stack` (read and execute code).
 
-![Engine]('./docs/simple-engine.jpg')
+![Engine]('docs/simple-engine.jpg')
