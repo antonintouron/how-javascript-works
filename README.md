@@ -2,8 +2,8 @@
 
 ## Javascript Engine
 
-* Javascript integrated in browsers (like google chrome), the Javascript Engine. It is composed of two things :
-  * The `memory heap` (Allocate memory).
+* Javascript integrate in browsers the Javascript Engine. It is composed of two things :
+  * The `memory heap` (allocate memory).
   * The `call stack` (read and execute code).
 
 ![Engine](docs/simple-engine.JPG#center)
@@ -15,8 +15,7 @@
 
 ## Call Stack
 
-* Execution of an operation (1 by 1). Example : `console.log('toto')`.
-* It works like a `stack` data structure.
+* Execution of an operation (one by one). Example : `console.log('toto')`.
 
 *My code :*
 
@@ -26,7 +25,7 @@
 	console.log(3);
 ```
 
-*In call stack* (1 by 1 execution on the call stack, synchrone execution) :
+*In call stack* (one by one execution on the call stack, synchrone execution) :
 
 ```
 |--------------|
@@ -49,7 +48,7 @@
 ![Engine](docs/engine.JPG#center)
 
 * 1- Check if there are operations in the `call stack`.
-* 2- If empty, check if there are operations in the `callback queue` (It works like a `queue` data structure).
+* 2- If empty, check if there are operations in the `callback queue`.
 * 3- If there is an operation, it is transferred to `call stack` and executed.
 
 ### Example
